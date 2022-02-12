@@ -1,0 +1,7 @@
+[package]
+name = "rdkafka-vendored-ssl"
+version = "0.21.0"
+edition = "2021"
+
+[dependencies]
+rdkafka = { version = "0.28.0", default-features = false, features = ["ssl-vendored"] }
